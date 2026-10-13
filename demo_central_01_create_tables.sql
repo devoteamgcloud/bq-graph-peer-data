@@ -4,10 +4,7 @@
 -- Client Presentation Talking Points:
 -- 1. BigQuery Graph is a LOGICAL METADATA LAYER over standard relational tables.
 --    There is no separate, proprietary graph database to purchase or manage.
--- 2. Data Mesh Architecture: We construct two decoupled domain datasets:
---    - academic_editorial: Public/editorial data (Papers, Subjects, Citations)
---    - peer_review: Sensitive profile & reviewer data (Authors, Institutions)
--- 3. We create tables for:
+-- 2. We create tables for:
 --    - Entity Tables (will become Graph NODES)
 --    - Relationship/Junction Tables (will become Graph EDGES)
 -- ============================================================================
